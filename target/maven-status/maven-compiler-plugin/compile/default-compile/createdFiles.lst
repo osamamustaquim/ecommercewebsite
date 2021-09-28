@@ -1,0 +1,12 @@
+com\mycompany\griinggotsshop\Helper.class
+com\mycompany\entities\User.class
+com\mycompany\dao\CategoryDao.class
+com\mycompany\servlets\ProductOperationServlet.class
+com\mycompany\servlets\logoutServlet.class
+com\mycompany\servlets\LoginServlet.class
+com\mycompany\servlets\RegisterServlet.class
+com\mycompany\griinggotsshop\FactoryProvider.class
+com\mycompany\entities\Category.class
+com\mycompany\entities\Product.class
+com\mycompany\dao\ProductDao.class
+com\mycompany\dao\userDao.class

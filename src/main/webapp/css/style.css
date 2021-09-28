@@ -1,0 +1,169 @@
+
+body{
+    font-family: 'railway', sans-serif;
+    background: black;
+    font-size: 14px;
+    font-weight: 400;
+      color: #fff;
+}
+
+h1{
+    font-size: 30px;
+       color: #fff;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 16px;
+       color: #fff;
+    font-weight: bold;
+}
+h5{
+    
+       color: #fff;
+    font-weight: bold;
+}
+h6{
+   
+       color: #fff;
+    font-weight: bold;
+}
+
+
+.header {
+  padding: 60px;
+  
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.stickproduct{
+    position: fixed;
+    
+}
+
+
+.bgclr{
+    background:#1abc9c;
+}
+
+
+  .custom-bg {
+    background: #673ab7 ;
+}
+
+  .admin .card{
+    border: 2px #673ab7;
+}
+
+  .admin .card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background: #673ab7;
+}
+
+.discount-label {
+    font-size: 15px;
+    font-style: italic;  
+    color: #fff;
+ 
+}
+
+
+.givebg{
+    background: #e74c3c;
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+.product-card :hover{
+     background: #e74c3c;
+     color: #fff;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 5px 5px 10px #9E9E9E;
+     cursor: pointer;   
+}
+.product-header{
+    
+    background: cyan;
+     color: black;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 5px 5px 10px yellow;
+     cursor: pointer;   
+}
+
+
+.product-header :hover{
+     background: yellow;
+     color: black;
+     border-radius: 5px;
+     border: none;
+     box-shadow: 5px 5px 10px yellow;
+     cursor: pointer;   
+}
+
+
+
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;    
+}
+
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn {
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+        }    
+}
+
+@keyframes fadeOut {
+    from{
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+        }    
+}
